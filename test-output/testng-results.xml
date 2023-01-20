@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Accept Cookies link[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> xpath: //button[@id='onetrust-accept-btn-handler']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Sign Up link[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> xpath: //a[contains(text(),'Sign Up')]]]]>
+    </line>
+    <line>
+      <![CDATA[Getting Sign Up text[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> link text: Sign Up]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="4428" started-at="2023-01-20T19:14:55 GMT" finished-at="2023-01-20T19:14:59 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="SignUpTest.VerifyUserCanNavigateToSignupPageSuccessfully()[pri:0, instance:uk.co.heartbingo.testsuite.SignUpTest@76f2b07d]" name="VerifyUserCanNavigateToSignupPageSuccessfully" class="uk.co.heartbingo.testsuite.SignUpTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="heartbingo-technicaltest-nauman" duration-ms="4428" started-at="2023-01-20T19:14:55 GMT" finished-at="2023-01-20T19:14:59 GMT">
+      <class name="uk.co.heartbingo.testsuite.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.heartbingo.testsuite.SignUpTest@76f2b07d]" name="setUp" is-config="true" duration-ms="2704" started-at="2023-01-20T19:14:55 GMT" finished-at="2023-01-20T19:14:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:uk.co.heartbingo.testsuite.SignUpTest@76f2b07d]" name="init" is-config="true" duration-ms="16" started-at="2023-01-20T19:14:58 GMT" finished-at="2023-01-20T19:14:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="VerifyUserCanNavigateToSignupPageSuccessfully()[pri:0, instance:uk.co.heartbingo.testsuite.SignUpTest@76f2b07d]" name="VerifyUserCanNavigateToSignupPageSuccessfully" duration-ms="894" started-at="2023-01-20T19:14:58 GMT" finished-at="2023-01-20T19:14:59 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Accept Cookies link[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> xpath: //button[@id='onetrust-accept-btn-handler']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Sign Up link[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> xpath: //a[contains(text(),'Sign Up')]]]]>
+            </line>
+            <line>
+              <![CDATA[Getting Sign Up text[[ChromeDriver: chrome on WINDOWS (ef1a6a3815f3a7ea436e7df992ba656c)] -> link text: Sign Up]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanNavigateToSignupPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.heartbingo.testsuite.SignUpTest@76f2b07d]" name="tearDown" is-config="true" duration-ms="608" started-at="2023-01-20T19:14:59 GMT" finished-at="2023-01-20T19:14:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.heartbingo.testsuite.SignUpTest -->
+    </test> <!-- heartbingo-technicaltest-nauman -->
+  </suite> <!-- Default Suite -->
+</testng-results>
